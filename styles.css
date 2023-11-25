@@ -1,0 +1,76 @@
+body {
+  background: #333;
+  color: whitesmoke;
+}
+
+.container {
+  width: 50%;
+  margin-top: 1rem;
+  position: relative;
+}
+
+h3 {
+  margin-top: 4rem;
+}
+
+.form-group {
+  margin: 1rem 0;
+}
+#bookmarksResult .well {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  background: #747474;
+}
+#bookmarksResult .well h3 {
+  flex: 1;
+}
+
+#bookmarksResult .well a {
+  flex: 1;
+  border: 1px solid salmon;
+  margin: 0 3rem;
+  text-align: center;
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+}
+
+#bookmarksResult .well a:nth-of-type(1) {
+  background: slateblue;
+  color: whitesmoke;
+}
+
+#bookmarksResult .well a:nth-of-type(1):hover {
+  background: rgb(80, 68, 153);
+}
+#bookmarksResult .well a:nth-of-type(2) {
+  background: salmon;
+  color: whitesmoke;
+}
+
+#bookmarksResult .well a:nth-of-type(2):hover {
+  background: rgb(170, 91, 82);
+}
+
+#bookmarksResult {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+footer {
+  margin-top: 15rem;
+}
+footer p {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  background: salmon;
+}
